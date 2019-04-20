@@ -319,12 +319,85 @@ solfege_XXXI = \relative c' {
   \global
   \time 12/8
   \clef treble
+  \partial 8 f8 | b8 d b c8 b16 a g f e4. d8 e f | g8 b g a g16 f e d c4. c8 f a |
+  b4 c8 a4 g16 a f8 a f~ f r e | d4.~ d8 c a r4 a16 b c8 e16 f g e |
+  f8 g16 a b8 g8 a16 b c8 d4 c8~ c4 b16 a | g4 f8 g4 c,16 d e4. f4 r8 |
+  e4 f8 c16 b c8 a' d,16 c d8 b' e,16 d e8 c' | d8 b' c~ c b a b2. |
   \bar "|."
 }
 
 solfege_XXXII = \relative c' {
   \global
   \time 12/8
+  \clef bass
+  \partial 8 d,16 f | g8 b g a b16 c d e f4. g4.~ | g8 f e16 d c4 b16 a g4 r8 f4 r8 |
+  g8 d b g g16 c b a f4.~ f8 d' f | g8 g, g' f f, f' e e,4 d'8 d, f |
+  g8 a b16 g' a,8 b c16 a' b,8 d c b a8. f16 | g4 a8 g8. a16 b8 a8. b16 c8 d4~ d16 e |
+  f4. g8 d b f' c f,~ f g4~ | g8 a c d4~ d16 f g4.~ g8 r4 |
+  \bar "|."
+}
+
+solfege_XXXIII = \relative c' {
+  \global
+  \time 2/2
+  \clef treble
+  \partial 4 a4 | d2 e | a4 c b d | d1~ | d2 d, | c2. e4 | a,2 g4 a | e g2 b4~ | b4 a2. |
+  c2 r4 d8 e | r4 f4~ f4. g8 | e2. r4 | d4. e8 d4. e8 | c4 c'2 c,4 | b4 b'2 b,4~ | b2 a~ | a4 a8 a r2 |
+  d4 d8 e f g a4 | c,4 c8 d e f g4 | b,4 b8 c~ c4 g4~ | g4 f r2 | r8 a'4. r8 g4. | a4 g f2 | g4. f8 f4 r | e2 f |
+  a1 | a2 a | a4 a a' r4 | b8 c d e r4 c | d2. c4~ | c2 b2~ | b4 a2. | g8 f e d c4 d |
+  \bar "|."
+}
+
+solfege_XXXIV = \relative c' {
+  \global
+  \time 2/2
+  \clef bass
+  \partial 8 b,8 | e4 e8 g b4. c8 | f,4 f8 g a4. b8 | e,4 e'8 d c b a4~ | a8 f a4 b8 a g f~ | f4 e2 d4 | e2. r4 | r4 b' r b | r8 e, e2. |
+  d4 d8 e f d e4 | c4 c8 d e c d4~ | d4. c8 c2 | b4 b' a, c' | c8 b a g a4 r | b8 c d b a b c a | g e b g' b4. a8~ | a4 g r2 |
+  f4 f8 g e4. d8 | b d f a g4 g8 f~ | f4 e2 r4 | d1 | r1 | r8 b b r r a' a r | b8 a g f e4 b | e2. r4 |
+  f8 b, a' b, b' b, c' b, | d'2 r2 | e8 f g e d e f d | c d e c b c d b | a4 g2 f4~ | f4 d2 b4~ | b2 d | e1 |
+  
+  \bar "|."
+}
+
+solfege_XXXV = \relative c' {
+  \global
+  \time 3/2
+  \clef treble
+  \bar "|."
+}
+
+solfege_XXXVI = \relative c' {
+  \global
+  \time 3/2
+  \clef bass
+  \bar "|."
+}
+
+solfege_XXXVII = \relative c' {
+  \global
+  \time 6/4
+  \clef treble
+  \bar "|."
+}
+
+solfege_XXXVIII = \relative c' {
+  \global
+  \time 6/4
+  \clef bass
+  \bar "|."
+}
+
+solfege_XXXIX = \relative c' {
+  \global
+  \time 2/4
+  \clef treble
+  \bar "|."
+}
+
+solfege_XL = \relative c' {
+  \global
+  \time 2/4
   \clef bass
   \bar "|."
 }
@@ -523,6 +596,55 @@ solfege_XXXII = \relative c' {
     instrumentName = "32"
   } \solfege_XXXII
 }
+
+\score {
+  \new Staff \with {
+    instrumentName = "33"
+  } \solfege_XXXIII
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "34"
+  } \solfege_XXXIV
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "35"
+  } \solfege_XXXV
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "36"
+  } \solfege_XXXVI
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "37"
+  } \solfege_XXXVII
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "38"
+  } \solfege_XXXVIII
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "39"
+  } \solfege_XXXIX
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "40"
+  } \solfege_XL
+}
+
 
 
 }
