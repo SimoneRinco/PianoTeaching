@@ -364,6 +364,9 @@ solfege_XXXV = \relative c' {
   \global
   \time 3/2
   \clef treble
+  f2 f f4 g | e2. f4 g a4 | a2~ a4 b a g | f1. | f'4 a2 g b4~ | b4 c2. r8 d8 c a | b g e c b4. c8~ c4 c8 e | g2 f1 |
+  e4. c8~ c d4. r2 | f4. b,8~ b a4. r2 | r4. g8 c4 r e,2 | r4. f8 a4 r c,2 |
+  b8 c d e c e g b~ b4 a | a'8 b c d~ d4 c2 b4 | a8 g e c b c g4 r e | f1 r2 |
   \bar "|."
 }
 
@@ -371,6 +374,10 @@ solfege_XXXVI = \relative c' {
   \global
   \time 3/2
   \clef bass
+  \partial 4 c,,4 | d2. e4 f4. g8 | a2. a2. | d4 c2 b4 a a8 b | a g e c~ c4 r r a |
+  d4 r8 e r f r g a4 r | b8 c d b a4 a8 b a4 r | g8 b d f~ f4 e2 c4 | d1. |
+  d,2 b a | g4. a8 b2 c4 r | e2. d4 e8 a g c~ | c4 d r8 c r d r2 |
+  e4 a,2 e'8 a, g4. a8 | b4 e,2 b'8 e, c4. d8 | r4 c' r a r g | f4 a8 e' d4 r r2 |
   \bar "|."
 }
 
@@ -378,6 +385,10 @@ solfege_XXXVII = \relative c' {
   \global
   \time 6/4
   \clef treble
+  \partial 4 g4 | c2 d4 e2. | d2 f4 a2. | g4 g8 a b d f4 e8 d c b | g2 b c |
+  g'4. f8 g4 e4. f8 e4 | d4 c8 b a g r8 g a b c4 | r4 e2 r4 d2 | b2 a8 b c2. |
+  c'2.~ c4 a2 | b8 g f d r4 c8 d e f r4 | r2 g4 r2 b4 | d1.~ |
+  d4 c4. b8 c4 b4. a8 | b4 g8 a b g f2 e4 | d2 e4 f2~ f8 g | c,1 r2 |
   \bar "|."
 }
 
@@ -385,6 +396,10 @@ solfege_XXXVIII = \relative c' {
   \global
   \time 6/4
   \clef bass
+  b,,2 f'4 r e8 f r4 | a4 a8 g f c d4 d8 e f d | b4. c8 d4 e2. | f2 a4~ a2. |
+  b4 d f b2 a8 b | g4 b e g2 f8 e | d4 c a8 f d4 b a8 b | e2~ e8 f b,2. |
+  a2~ a8 c f2~ f8 c, | b c d e f g a b c d e f | g4. f8 e f b,4. a8 f' f, | a2.~ a2 c4 |
+  b4 b8 c b4~ b8 a b c d4 |  c4 c8 e c4~ c8 b a g f4 | r4 f2 r4 c' r | b1. |
   \bar "|."
 }
 
@@ -392,12 +407,37 @@ solfege_XXXIX = \relative c' {
   \global
   \time 2/4
   \clef treble
+  \partial 8 e8 | a8. c16 b8. d16 | e8. g16 f4 | e16 g e g f a c, e | d e f g a4 |
+  b16 a8. b16 g8. | e4. d16 e | c16 b8 a16 b16 a8 g16 | a4. e8 |
+  f16 e8 d16~ d16 c8 a16~ | a8 c4 e8 | f2 | e8 e' f16 e d8 |
+  e16 d c8 b16 c d e | f8 r16 e c8 r16 a | r8 g4 f16 e | d16 c d c b4 |
+  a8 b~ b16 c8 e16 | d4. f16 a | b8 r r g~ | g8 a4. |
   \bar "|."
 }
 
 solfege_XL = \relative c' {
   \global
   \time 2/4
+  \clef bass
+  \partial 16 e,16~ | e16 d8. c8 d | d16 c8 b16 a g8 f16 | e4 d | c8 c4 e16 g |
+  f8. a16 c8. e16 | d8 e f d~ | d c b8. d16 | r8 c4. |
+  r8 d16 b r8 g16 b | r16 c8. r16 d8. | e8 f4 a8~ | a4 r4 |
+  g8 g16 f e8 c16 a~ | a b c8 b16 c g'8~ | g f~ f16 e8. | r8 e r e16 e | 
+  \bar "|."
+}
+
+solfege_XLI = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  d4 \tuplet 3/2 {d8 e f} d4 d8 f | g4 \tuplet 3/2 {g8 a b} g8 g f4 | g16 f e d \tuplet 3/2 {c8 d e~} e8 f4 g8 | a2 r4 \tuplet 3/2 {g8 a b} |
+  
+  \bar "|."
+}
+
+solfege_XLII = \relative c' {
+  \global
+  \time 4/4
   \clef bass
   \bar "|."
 }
@@ -645,6 +685,17 @@ solfege_XL = \relative c' {
   } \solfege_XL
 }
 
+\score {
+  \new Staff \with {
+    instrumentName = "41"
+  } \solfege_XLI
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "42"
+  } \solfege_XLII
+}
 
 
 }
