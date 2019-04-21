@@ -430,14 +430,111 @@ solfege_XLI = \relative c' {
   \global
   \time 4/4
   \clef treble
-  d4 \tuplet 3/2 {d8 e f} d4 d8 f | g4 \tuplet 3/2 {g8 a b} g8 g f4 | g16 f e d \tuplet 3/2 {c8 d e~} e8 f4 g8 | a2 r4 \tuplet 3/2 {g8 a b} |
-  
+  d4 \tuplet 3/2 {d8 e f} d4 d8 f | g4 \tuplet 3/2 {g8 a b} g8 g f4 |
+  g16 f e d \tuplet 3/2 {c8 d e~} e8 f4 g8 | a2 r4 \tuplet 3/2 {g8 a b} |
+  g4. a16 b \tuplet 3/2 {g8 d b} r4 | a4. g16 f~ \tuplet 3/2 {f8 c' f} r4 |
+  g8. d16 \tuplet 3/2 {e8 g b} c8. a16 \tuplet 3/2 {c8 e a} | b2~ \tuplet 3/2 4 {b8 a b a g a} |
+  e4 d8 e d4 \tuplet 3/2 {c8 d e} | f4 r8 f' r f, r d~ |
+  \tuplet 3/2 {d c d} e8. d16 c8. a16 g8. g16 | f2 r4 e8 f~ |
+  f8 g a16 g f e f8 a16 g c4 | r16 d c b r c b a~ \tuplet 3/2 4 {a8 b c a c e} |
+  d8 b4 a8~ \tuplet 3/2 {a8 g f} e4~ | e8. d16~ \tuplet 3/2 {d8 c d~} d2 |  
   \bar "|."
 }
 
 solfege_XLII = \relative c' {
   \global
   \time 4/4
+  \clef bass
+  \partial 8 c,8 | f8 f16 g a8 a16 c f4. e16 d | c8 d16 c \tuplet 3/2 4 {a8 c a e a e c d e} |
+  r8 d4 d16 e f8. e16 f8. a16 | b4~ \tuplet 3/2 {b8 a d} a4~ \tuplet 3/2 {a8 b c} |
+  d4~ d8 a b4~ b8 a16 d, | \tuplet 3/2 4 {e8 f g a f a a, b c} e8 d~ |
+  d4 r4. c8 b4~ | b16 a g f e c b c r16 c e f \tuplet 3/2 {c8 d e} |
+  f8. f16 g16 g8 a16 b8. b16 c16 c8 d16 | e8 d4 c16 d e8. f16~ f8 r |
+  g16 f g f e c g c g8 e \tuplet 3/2 {c8 d e} | g8 f a g \tuplet 3/2 4 {a8 b c b c e} |
+  f16 e d c e d c b c b a g a g f e | d8 e4 f g a16 g |
+  \tuplet 3/2 4 {f8 a c a c f c f a f a c} | c8 c16 c r16 c,8. f4. r8 |
+  \bar "|."
+}
+
+solfege_XLIII = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  e4. g8 \tuplet 3/2 {e8 f g} | g4. a8 \tuplet 3/2 {g8 a b} |
+  c2 r4 | d16 c b c b8 a16 g f8 e16 d |
+  \tuplet 3/2 4 {b8 c d c d e f g a} | b4. a8 \tuplet 3/2 {b8 a g} |
+  f4. d8 \tuplet 3/2 {b8 c d} | r8 e r f r f16 a |
+  b4~ \tuplet 3/2 {b8 c d} e8 b | a4~ \tuplet 3/2 {a8 f e} d8 b |
+  r4 a2 | \tuplet 3/2 4 {r8 g a r a b r b d} |
+  r8 d4 b8 r4 | b16 c d e f g a b \tuplet 3/2 {a8 b d} |
+  \tuplet 3/2 4 {e8 d c d c b c b a} | g8 g16 f e8. d16 r8 d |
+  e8 e16 d c8. b16 r8 b | a16 g8. \tuplet 3/2 4 {a8 c e c e a} |
+  \tuplet 3/2 {b8 d f~} f8 d e4 | r16 f f8 r16 d d8 e4 |
+  \bar "|."
+}
+
+solfege_XLIV = \relative c' {
+  \global
+  \time 3/4
+  \clef bass
+  \partial 8 f,8 | \tuplet 3/2 4 {b8 d f d b f} e8 c | \tuplet 3/2 4 {a8 c f c a f} a,8 b |
+  a8 c8 f4 g8. a16 | b8 d4 b8 c8. d16 |
+  e2 r8 f~ | f16 e8. f16 d8. d8 a |
+  g16 a b c d4~ \tuplet 3/2 {d8 a f} | d4. e16 f g8 g16 a |
+  \tuplet 3/2 4 {b8 c d f d e g a g} | g4 d8 b f16 g a f |
+  b8. a16 g8. f16~ f16 a8.~ | a8 b c d e d16 c |
+  b16 c e a, g a b8 r4 | r16 a8. r16 c,8. d8 a' |
+  \tuplet 3/2 4 {c8 d e b c d a b a~} | a8 b~ b4 r |
+  \bar "|."
+}
+
+solfege_XLV = \relative c' {
+  \global
+  \time 2/2
+  \clef treble
+  a2 g4 a | b2. e4 | \tuplet 3/2 2 {f4 e d e d c} | d4 r b g |
+  a8 b c d e4. d8 | c4 c8 b \tuplet 3/2 {a4 e' b} | \tuplet 3/2 2 {e4 c' e, f d' f,} | c8 d4 e8 d8 e4 g8 |
+  a4 e8 a g4 d8 g | \tuplet 3/2 {f4 c f} e2 | d8 e4. b8 e4. | a,1 |
+  r2 g8 a b e~ | \tuplet 3/2 2 {e4 g b d e g} | a4. g8 f4 e | f4. e8 \tuplet 3/2 {d4 c g} |
+  a8 b c e d e f g~ | g4. a8~ \tuplet 3/2 {a4 e' g~} | \tuplet 3/2 2 {g4 e g~ g b, r} | a1 |
+  \bar "|."
+}
+
+solfege_XLVI = \relative c' {
+  \global
+  \time 2/2
+  \clef bass
+  \partial 4 c,4 | f8 g a f \tuplet 3/2 {g4 a b} | a8 b c a \tuplet 3/2 {b4 c d} |
+  e4 f8 e d4 d8 b | f4 f8 e d c b c |
+  a2 r | g4 b \tuplet 3/2 {g4 a b } |
+  c4 e \tuplet 3/2 {f4 e f } | c4 g' \tuplet 3/2 {c, g' b} |
+  a4. g8 f4. e8 | f1 |
+  \tuplet 3/2 2 {r4 f e r e d} | c4 d r c8 e |
+  \tuplet 3/2 2 {f4 a r a c r} | c4 g8 e c4. b8|
+  a2. b8 c | \tuplet 3/2 {c4 g' e} f2 |
+  \bar "|."
+}
+
+solfege_XLVII = \relative c' {
+  \global
+  \time 6/8
+  \clef treble
+  b'8 f16 b c d c8 f,16 c d e | d8 f b f b d |
+  e4 d8 c4 a8 | b2. |
+  a8 g f \tuplet 2/3 {a8 f} | b8 a g \tuplet 2/3 {b8 g} |
+  f8 g4 c,8 g'4 | e16 g b d r8 d16 b a f r8 |
+  \tuplet 2/3 4. {c8 d e f} | g4 a8 a4 b8 |
+  d2. | r4. d8 a f |
+  d8 e f~ f4 g8 | \tuplet 2/3 4. {a8 b~ b c} |
+  d8 c b d4 b8 | f16 g a f d8~ d c a'~ |
+  a4. \tuplet 2/3 {b8 a} | g8 e c~ c4 b8~ |
+  b8 a f~ \tuplet 2/3 {f8 a} | b2. |
+  \bar "|."
+}
+
+solfege_XLVIII = \relative c' {
+  \global
+  \time 6/8
   \clef bass
   \bar "|."
 }
@@ -695,6 +792,42 @@ solfege_XLII = \relative c' {
   \new Staff \with {
     instrumentName = "42"
   } \solfege_XLII
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "43"
+  } \solfege_XLIII
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "44"
+  } \solfege_XLIV
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "45"
+  } \solfege_XLV
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "46"
+  } \solfege_XLVI
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "47"
+  } \solfege_XLVII
+}
+
+\score {
+  \new Staff \with {
+    instrumentName = "48"
+  } \solfege_XLVIII
 }
 
 
