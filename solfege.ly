@@ -16,6 +16,43 @@ global = {
   \override Staff.InstrumentName.font-size = 6
 }
 
+
+% I: learning the notes
+% - treble and bass clef
+% - 1/4 2/4 3/4 4/4 values and rests, with ties
+% - time signatures: 2/4 3/4 4/4
+
+% II: eights values, the dot and ternary time signatures
+% - additional time signatures: 3/8 6/8 9/8 12/8
+
+% III: sixteenths values
+
+% IV: irregular rhythms: triplets and duplets
+% - 3:2 4
+% - 3:2 2
+% - 3:2 8
+% - 2:3 4.
+
+% V: cut time and other time signatures
+% - time signatures: 2/2 3/2 4/2 6/4 9/4
+
+% VI: thirty-seconds values and multiple dots
+
+% VII: other irregular rhythms
+% - 6:4 4
+% - 5:4 4
+% - 7:4 4
+% - 4:3 4.
+% - ...
+
+% VIII: Irregular time signatures
+% - 5/8
+% - 7/8
+
+% IX: All together
+
+
+
 solfege_I = \relative c' {
   \global
   \time 4/4
@@ -538,6 +575,15 @@ solfege_XLVIII = \relative c' {
   \clef bass
   \bar "|."
 }
+
+% trentaduesimi
+% doppio punto
+% terzine di quarti in tempo binario
+% terzine di sedicesimi in tempo binario
+% terzine di ottavi in tempo tagliato
+% sestine in tempo semplice
+% quartine in tempo composto
+% cinquine e settimine in tempo semplice
 
 
 \bookpart {
