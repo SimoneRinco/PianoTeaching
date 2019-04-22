@@ -214,36 +214,94 @@ solfege_I_XIII_up = \relative c' {
   \global
   \time 4/4
   \clef treble
-  c2 d4 s4 | s1 | s2. c'4 | d4 b g2 | f2 b,4 s | s1 | s1 | 
+  c2 d4 s4 | s1 | s2. c'4 | d4 b g2 | f2 b,4 s | s1 | s1 | s1 |
+  s1 | s4 d2 a'4 | b4 d r e~ | e4 r4 a2~ | a4 r2 e'4 | f e d f | c2 a4 a, | g e s2 |
+  s1 | s1 | s1 | s1 | s1 | s1 | s2. f4 | e2 f4 s4 |
+  e4 s d s | c s b s | a2 s | s1 |  s1 |  s1 |  s1 |  s1 |
+  s1 | s1 | s4 f'2. | r2 e4 g | c e d b~ | b2 r2 | g1~ | g4 c2. |
+  \bar "|."
 }
 
 solfege_I_XIII_down = \relative c' {
   \global
   \time 4/4
   \clef bass  
-  s2. g4~ | g a b g | c2. s4 | s1 | s2. a4 | g2 r4 g, | a4 c e g |
+  s2. g4~ | g a b g | c2. s4 | s1 | s2. a4 | g2 r4 g, | a4 c e g | f2 r2 |
+  c4 d f a~ | a4 s2. | s1 | s1 | s1 | s1 | s1 | s2 c2 |
+  b2. a4 | g2 b, | r4 c2 e,4~ | e f g e | a1 | r2. f'4 | g b d s4 | s2. a4 |
+  s4 g s f | s f s e | s2 c4 b~ | b r b,2 | b4 a b c~ | c2 f4 g~ | g r a2 | b1 |
+  c2. e4~ | e4 f2.~ | f4 s2. | s1 | s1 | s1 | s1 | s1 |
+  \bar "|."
+}
+
+solfege_I_XIV_up = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \partial 4 s4 | s2. | s2. | s2. | s2 a'4 | e4 d c~ | c4 d2 | d'4 f e~ | e2. |
+  c4 a e | r2 c4 | s2. | s | s | s | s | s |
+  s | s | s | s | s | b2. | c2 f4 | g a d |
+  e c b | a2 e'4~ | e4 r2 | c4 s b | s a s | g s2 | s2. | s |
+  \bar "|."
+}
+
+solfege_I_XIV_down = \relative c' {
+  \global
+  \time 3/4
+  \clef bass
+  \partial 4  e,4 | a2 e4 | d4 c b | a2. | a'2 s4 | s2. | s2. | s2. | s2. |
+   s2. |  s2. | a2. | b4 f d | e d r | b a r | e d c | b2. |
+   a | r2 c4~ | c d2~ | d4 r d' | e c g' | s2. | s | s |
+   s | s | s | s4 c s | b s a | s g a | e2 g4 | a2. | 
+  \bar "|."
+}
+
+solfege_I_XV_up = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \partial 2 s2 | s2. | e4 d c | b2 s4 | s2. | s4 f'4 e | a2.~ | a4 f' d~ | d2 r4 |
+  r4 f, d | s2. | s | s | s | s | s | s |
+  c2. | e4 f a~ | a4 a' c | b2. | b,4 f b, | s2. | s | s |
+  s | s | s | s | s | s | s | b2. |
+  \bar "|."
+}
+
+solfege_I_XV_down = \relative c' {
+  \global
+  \time 3/4
+  \clef bass
+  \partial 2 f,2 | b4 c d | s2. | s2 b,4 | c4 f a | c s2 | s2. | s | s |
+  s | b4 a f | e2 d4 | e2 f4~ | f f,2 | d4 f b | r e, b' | r c a' |
+  s2. | s | s | s | s | a4 f a | g2 r4 | d4 g, d' |
+  c2 d4~ | d e2~ | e2. | r2 f4 | g4 d b | g2 e4 | f4 f' a | s2. | 
+  \bar "|."
 }
 
 
-solfege_XIII = \relative c' {
+solfege_II_I = \relative c' {
   \global
   \time 2/4
   \clef treble
   c4 d8 e | g f e d | c4 r | g4 g8 b | g2 | g8 b d f | g4 b | c2 |
   e4 d | c g8 e | c4 r | d4 g,8 g' | e2 | f8 e d c | g4 g | c2 |
+  d4 d8 f | e4 a | b4 r8 g | a4 r | e'2 | f8 g a e | r8 d r c | b2 |
+  d8 g, d f | e4 b | c8 e g,4 | f8 a c b | c2 | r4 a8 b | r4 e8 d | c2 |
   \bar "|."
 }
 
-solfege_XIV = \relative c' {
+solfege_II_II = \relative c' {
   \global
   \time 2/4
   \clef bass
   c4 e8 d | g f e d | c4 g | a f8 c | a2 | r4 b | d g,8 g | c2 |
   b4 a8 g | d g b, g' | e4 d~ | d r | b g'8 b | d2~ | d4 c | r4 c8 c |
+  b8 d4 g,8~ | g a4 f8~ | f4 r | d8 e f a | g a b d~ | d4 r | e8 d c4~ | c8 b c4 |
+  a8 a g4 | f8 e d e | c2 | b4 d | r g8 b | d2~ | d4 r4 | c8 c c4 |
   \bar "|."
 }
 
-solfege_XV = \relative c' {
+solfege_II_III = \relative c' {
   \global
   \time 4/4
   \clef treble
@@ -254,7 +312,7 @@ solfege_XV = \relative c' {
   \bar "|."
 }
 
-solfege_XVI = \relative c' {
+solfege_II_IV = \relative c' {
   \global
   \time 4/4
   \clef bass
@@ -265,7 +323,7 @@ solfege_XVI = \relative c' {
   \bar "|."
 }
 
-solfege_XVII = \relative c' {
+solfege_II_V = \relative c' {
   \global
   \time 2/4
   \clef treble
@@ -276,7 +334,7 @@ solfege_XVII = \relative c' {
   \bar "|."
 }
 
-solfege_XVIII = \relative c' {
+solfege_II_VI = \relative c' {
   \global
   \time 2/4
   \clef bass
@@ -287,7 +345,7 @@ solfege_XVIII = \relative c' {
   \bar "|."
 }
 
-solfege_XIX = \relative c' {
+solfege_II_VII = \relative c' {
   \global
   \time 4/4
   \clef treble
@@ -299,7 +357,7 @@ solfege_XIX = \relative c' {
   \bar "|."
 }
 
-solfege_XX = \relative c' {
+solfege_II_VIII = \relative c' {
   \global
   \time 4/4
   \clef bass
@@ -310,7 +368,7 @@ solfege_XX = \relative c' {
   \bar "|."
 }
 
-solfege_XXI = \relative c' {
+solfege_II_IX = \relative c' {
   \global
   \time 6/8
   \clef treble
@@ -323,7 +381,7 @@ solfege_XXI = \relative c' {
   \bar "|."
 }
 
-solfege_XXII = \relative c' {
+solfege_II_X = \relative c' {
   \global
   \time 6/8
   \clef bass
@@ -336,7 +394,7 @@ solfege_XXII = \relative c' {
   \bar "|."
 }
 
-solfege_XXIII = \relative c' {
+solfege_II_XI = \relative c' {
   \global
   \time 3/8
   \clef treble
@@ -347,7 +405,7 @@ solfege_XXIII = \relative c' {
   \bar "|."
 }
 
-solfege_XXIV = \relative c' {
+solfege_II_XII = \relative c' {
   \global
   \time 3/8
   \clef bass
@@ -358,7 +416,7 @@ solfege_XXIV = \relative c' {
   \bar "|."
 }
 
-solfege_XXV = \relative c' {
+solfege_II_XIII = \relative c' {
   \global
   \time 9/8
   \clef treble
@@ -369,7 +427,7 @@ solfege_XXV = \relative c' {
   \bar "|."
 }
 
-solfege_XXVI = \relative c' {
+solfege_II_XIV = \relative c' {
   \global
   \time 9/8
   \clef bass
@@ -380,7 +438,97 @@ solfege_XXVI = \relative c' {
   \bar "|."
 }
 
-solfege_XXVII = \relative c' {
+solfege_II_XV_up = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \partial 8 s8 | s2. s8 d | s1 | s2 d4~ d8 e | d2 c |
+  g'8 f e g f a, s4 | s4 c8 a s4 f'8 e | d4. e8 a4 c | d2. r4 |
+  e8 g b a~ a g4 e8~ | e4 r d8 d, c b | s1 | s |
+  s | s | r8 e d c r e' d c | r a' g f g f4 e8 |
+  f1 | f,4 c s2 | s1 | s |
+  s | s | s4 b8 c e8 d4 e8 | f2. r4 |
+  \bar "|."
+}
+
+solfege_II_XV_down = \relative c' {
+  \global
+  \time 4/4
+  \clef bass
+  \partial 8 e,8 | f4. a8 c4. s8 | c2 b4 r8 d, | g4~ g8 b s2 | s1 |
+  s2. g4 | f8 a s4 b8 f s4 | s1 | s |
+  s | s | a8 g f4 g8 e c4~ | c8 d4. b8 e4. |
+  r4 d2 f4~ | f4 c'2. | s1 | s |
+  s1 | s2 b8 c g e | f8 e4 d c b8~ | b4. g8~ g4 e8 e |
+  f2. r4 | c'8 d e f e f g a | g a s2. | s1 |
+  \bar "|."
+}
+
+solfege_II_XVI_up = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \partial 8 d''8 | e4 d8 e r4 | c8 a e d~ d4 | c8 a e d~ d4 | s2. |
+  s | s | s | e'4 g8 e d b |
+  c8 a e4 r | r2 d4~ | d8 c4 s8 s4 | s2. |
+  s | s | a'4 b8 a g d' | c4 b g |
+  r2 a4 | f'8 d b a s4 | s2. | s |
+  s | s | b4 b4. a'8 | g2. |
+  \bar "|."
+}
+
+solfege_II_XVI_down = \relative c' {
+  \global
+  \time 3/4
+  \clef bass
+  \partial 8 s8 | s2. | s | s |  c4. b8~ b4 |
+  e,8 b' g e~ e4 | b2 d,4 | e2. | s2. |
+  s2. | s | s4. b''8 a4 | a,8 g a c d f |
+  e e4. g8 a | b8 c4 d4 e8 | s2. | s |
+  s | s2 b8 a | g2.~ | g8 f4 e8~ e4 |
+  d4. e8 f4 | b,4. d8 a'4 | s2. | s |
+  \bar "|."
+}
+
+solfege_II_XVII_up = \relative c' {
+  \global
+  \time 9/8
+  \clef treble
+  s2. s4. | s2. s4. | s2. c8 d e | g a g~ g f g~ g4 b8 |
+  c4 e8~ e8 c'4 r4 b,8 | c8 a f r e d r c b | c4. s2. | s2. s4. |
+  s2. s4. |  s2. s4. | c4.~ c8 e a b4 r8 | g'4 a8 b4 c8 d4. |
+  g,2.~ g4 f8 | e d c~ c g e c4. | s2. s4. | s2. s4. |
+  \bar "|."
+}
+
+solfege_II_XVII_down = \relative c' {
+  \global
+  \time 9/8
+  \clef bass
+  c,,8 b c g a b d c d | a b c e f e g c e | f4 g8 a4. s4. | s2. s4. |
+  s2. s4. | s2. s4. | s2. a4 c,8 | b8 c4 g8 c4 r4 d,8 |
+  e4.~ e8 f g a4. | r2. b4 b'8 | s2. s4. | s2. s4. |
+  s2. s4. | s2. s4. | b8 g d g d b~ b g4~ | g4 c8~ c4. r4. |
+  \bar "|."
+}
+
+solfege_II_XVIII_up = \relative c' {
+  \global
+  \time 2/4
+  \clef treble
+  g''4 f8 g | e d c b | c4 b8 c | b g f d | c4. s8 | s2 | s | s |
+  \bar "|."
+}
+
+solfege_II_XVIII_down = \relative c' {
+  \global
+  \time 2/4
+  \clef treble
+  \bar "|."
+}
+
+
+solfege_III_I = \relative c' {
   \global
   \time 4/4
   \clef treble
@@ -391,7 +539,7 @@ solfege_XXVII = \relative c' {
   \bar "|."
 }
 
-solfege_XXVIII = \relative c' {
+solfege_III_II = \relative c' {
   \global
   \time 4/4
   \clef bass
@@ -402,7 +550,7 @@ solfege_XXVIII = \relative c' {
   \bar "|."
 }
 
-solfege_XXIX = \relative c' {
+solfege_III_III = \relative c' {
   \global
   \time 3/4
   \clef treble
@@ -413,7 +561,7 @@ solfege_XXIX = \relative c' {
   \bar "|."
 }
 
-solfege_XXX = \relative c' {
+solfege_III_IV = \relative c' {
   \global
   \time 3/4
   \clef bass
@@ -424,7 +572,7 @@ solfege_XXX = \relative c' {
   \bar "|."
 }
 
-solfege_XXXI = \relative c' {
+solfege_III_V = \relative c' {
   \global
   \time 12/8
   \clef treble
@@ -435,7 +583,7 @@ solfege_XXXI = \relative c' {
   \bar "|."
 }
 
-solfege_XXXII = \relative c' {
+solfege_III_VI = \relative c' {
   \global
   \time 12/8
   \clef bass
@@ -748,133 +896,213 @@ solfege_XLVIII = \relative c' {
   }
 }
 
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "1.14"
+    \new Staff \solfege_I_XIV_up
+    \new Staff \solfege_I_XIV_down
+  >>
+  }
+}
+
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "1.15"
+    \new Staff \solfege_I_XV_up
+    \new Staff \solfege_I_XV_down
+  >>
+  }
+}
+
+
 }
 
 \bookpart {
 
 \header {
   title = "Chapter II"
-  subsubtitle = "Sub 2"
+  subsubtitle = "Eights, the dot and compound time signatures"
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "13"
-  } \solfege_XIII
+    instrumentName = "2.1"
+  } \solfege_II_I
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "14"
-  } \solfege_XIV
+    instrumentName = "2.2"
+  } \solfege_II_II
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "15"
-  } \solfege_XV
+    instrumentName = "2.3"
+  } \solfege_II_III
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "16"
-  } \solfege_XVI
+    instrumentName = "2.4"
+  } \solfege_II_IV
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "17"
-  } \solfege_XVII
+    instrumentName = "2.5"
+  } \solfege_II_V
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "18"
-  } \solfege_XVIII
+    instrumentName = "2.6"
+  } \solfege_II_VI
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "19"
-  } \solfege_XIX
+    instrumentName = "2.7"
+  } \solfege_II_VII
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "20"
-  } \solfege_XX
+    instrumentName = "2.8"
+  } \solfege_II_VIII
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "21"
-  } \solfege_XXI
+    instrumentName = "2.9"
+  } \solfege_II_IX
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "22"
-  } \solfege_XXII
+    instrumentName = "2.10"
+  } \solfege_II_X
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "23"
-  } \solfege_XXIII
+    instrumentName = "2.11"
+  } \solfege_II_XI
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "24"
-  } \solfege_XXIV
+    instrumentName = "2.12"
+  } \solfege_II_XII
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "25"
-  } \solfege_XXV
+    instrumentName = "2.13"
+  } \solfege_II_XIII
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "26"
-  } \solfege_XXVI
+    instrumentName = "2.14"
+  } \solfege_II_XIV
+}
+
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "2.15"
+    \new Staff \solfege_II_XV_up
+    \new Staff \solfege_II_XV_down
+  >>
+  }
+}
+
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "2.16"
+    \new Staff \solfege_II_XVI_up
+    \new Staff \solfege_II_XVI_down
+  >>
+  }
+}
+
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "2.17"
+    \new Staff \solfege_II_XVII_up
+    \new Staff \solfege_II_XVII_down
+  >>
+  }
+}
+
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "2.18"
+    \new Staff \solfege_II_XVIII_up
+    \new Staff \solfege_II_XVIII_down
+  >>
+  }
+}
+
+
+}
+
+\bookpart {
+  
+
+\header {
+  title = "Chapter III"
+  subsubtitle = "Sixteenths"
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "27"
-  } \solfege_XXVII
+    instrumentName = "3.1"
+  } \solfege_III_I
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "28"
-  } \solfege_XXVIII
+    instrumentName = "3.2"
+  } \solfege_III_II
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "29"
-  } \solfege_XXIX
+    instrumentName = "3.3"
+  } \solfege_III_III
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "30"
-  } \solfege_XXX
+    instrumentName = "3.4"
+  } \solfege_III_IV
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "31"
-  } \solfege_XXXI
+    instrumentName = "3.5"
+  } \solfege_III_V
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "32"
-  } \solfege_XXXII
+    instrumentName = "3.6"
+  } \solfege_III_VI
+}
+
 }
 
 \score {
@@ -973,5 +1201,3 @@ solfege_XLVIII = \relative c' {
   } \solfege_XLVIII
 }
 
-
-}
