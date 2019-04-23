@@ -178,9 +178,11 @@ final_exercise_spaces = \relative c' {
   \global
   \override Score.Clef.color = #red
   \clef treble
-  d4 c' f, a g' \clef bass b,, a, c f, d a' e' \clef treble g d' f b, a' c g' e a,
+  d4 c' f, a e' c g' \clef bass b,, a, c f, d a' e' \clef treble g d' f b, a' c g' e a,
   \clef bass g, a, f b, d a' c b' \clef treble d f c' a g' b c, f, a d,
-  \clef bass g, c, a d, 
+  \clef bass g, c, a d, f \clef treble e''' d' b a, d, c' a f g,
+  \clef bass e f, c' a g' b c, \clef treble f''' d c, e f, a d, g,
+  \clef bass f' d c, g' e f, a
   \undo \omit Score.BarLine
   \bar "|."
 }

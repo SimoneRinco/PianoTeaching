@@ -485,6 +485,8 @@ solfege_I_XV_up = \relative c' {
   r4 f, d | s2. | s | s | s | s | s | s |
   c2. | e4 f a~ | a4 a' c | b2. | b,4 f b, | s2. | s | s |
   s | s | s | s | s | s | s | b2. |
+  d4 d f~ | f b r4 | d2 e4~ | e c2 | r2 g4 | f e c | b a s4 | s2. |
+  s | s | s | s |
   \bar "|."
 }
 
@@ -495,7 +497,10 @@ solfege_I_XV_down = \relative c' {
   \partial 2 f,2 | b4 c d | s2. | s2 b,4 | c4 f a | c s2 | s2. | s | s |
   s | b4 a f | e2 d4 | e2 f4~ | f f,2 | d4 f b | r e, b' | r c a' |
   s2. | s | s | s | s | a4 f a | g2 r4 | d4 g, d' |
-  c2 d4~ | d e2~ | e2. | r2 f4 | g4 d b | g2 e4 | f4 f' a | s2. | 
+  c2 d4~ | d e2~ | e2. | r2 f4 | g4 d b | g2 e4 | f4 f' a | s2. |
+  s2. | s | s | s | s | s | s2 g4 | f2 b4~ |
+  b f d~ | d c2 | b4 a r | b2. |
+  
   \bar "|."
 }
 
@@ -755,6 +760,29 @@ solfege_II_XVIII_down = \relative c' {
   \bar "|."
 }
 
+solfege_II_XIX_up = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \partial 8 s8 | s1 | s2. c8 b | e4 r8 g a d4 b8 | a8 b f d c4 s4 |
+  s1 | s | s | s4 b8 c d e f4~ |
+  f8 e4 g8~ g b c4 | a' r2 b8 a | c2~ c8 a e c | c, b a b s2 |
+  s1 | s | s2. b8 c | d4. e8 g4. d8 |
+  e8 g b d e4 r4 | f8 d b a f d a4 | s1 | s |
+  \bar "|."
+}
+
+solfege_II_XIX_down = \relative c' {
+  \global
+  \time 4/4
+  \clef bass
+  \partial 8 d,8 | e4 b8 c a f' r b, | c4. b8 e g s4 | s1 | s2. b4 |
+  e,8 f4 a r8 b8 b, | c4 d a8 d, e g | r4 a8 g'~ g4 f8 d | e8 g s2. |
+  s1 | s | s | s2 a2 |
+  g4 f8 c4 b8 a4~ | a4 r8 b r f' r g | r4 a2 s4 | s1 |
+  s1 | s | g4 f8 e4 d r8 | b,2. e4 |
+  \bar "|."
+}
 
 solfege_III_I = \relative c' {
   \global
@@ -944,8 +972,37 @@ solfege_III_XII_down = \relative c' {
   \bar "|."
 }
 
-
 solfege_IV_I = \relative c' {
+  \global
+  \time 2/4
+  \clef treble
+  \partial 8 d8 | e4 f8 g | a4 \tuplet 3/2 {b8 d b} | e4 f8 e | d4. a8 |
+  b8 a \tuplet 3/2 {g8 f e} | \tuplet 3/2 4 {a8 g f b a f} | g2 | r4 f~ |
+  f8 a d f | g4. f8 | \tuplet 3/2 4 {g8 e b c a f} | g8 a r d |
+  g4 b | \tuplet 3/2 {a8 b c} a8 f | \tuplet 3/2 {g8 f e} d8 d, | e8 d'4 r8 |
+  b8 c d e | \tuplet 3/2 4 {f8 e d a' g f b a g} a4 | r4 g8 e' |
+  \tuplet 3/2 4 {d8 b a f d a} | f8 d e f | b8 c4. | d8 e f d |
+  \tuplet 3/2 4 {e8 d c} b4~ | b8 a4 r8 | f8 b, c a | \tuplet 3/2 {b8 c d } e4 |
+  \tuplet 3/2 4 {r8 f g r g a} | f'4 e | d8 a f d~ | \tuplet 3/2 {d8 c d} e4 |
+  \bar "|."
+}
+
+solfege_IV_II = \relative c' {
+  \global
+  \time 2/4
+  \clef bass
+  \partial 8 f,,16 g | a8 a a16 b c d | e4 \tuplet 3/2 {e8 f e} | d8 d e16 d c8 | \tuplet 3/2 4 {d8 c b c a e} |
+  d8 e4~ e16 d' | g16 a b d, \tuplet 3/2 {e8 d c} | d4 r8 b16 c | d16 c b8 \tuplet 3/2 {a8 g a} |
+  c,4 b8 c~ | c8 f4 e16 g | \tuplet 3/2 4 {a8 c e g f e} | f16 e d c d c b a |
+  r8 b r e | f d e16 f g a | \tuplet 3/2 {b8 c b} a4 | r4 a,8 d |
+  c16 b8 a16 b4 | r2 | g4 \tuplet 3/2 {f8 d e} | \tuplet 3/2 {d e g} a4 |
+  c16 d e f g a b g | a8 d c g | a4 d,8. e16 | f8. d16 c8. a16 |
+  \tuplet 3/2 4 {g8 f g d e f} | \tuplet 3/2 4 {a4 c8 d4 e8} | f8 a g4 | r4. a8~ |
+  a16 a,8. b16 a8. | \tuplet 3/2 4 {g8 b d f g f} | e4 g~ | \tuplet 3/2 {g8 c b } a4 |
+  \bar "|."
+}
+
+solfege_IV_III = \relative c' {
   \global
   \time 4/4
   \clef treble
@@ -1448,6 +1505,8 @@ solfege_XLVIII = \relative c' {
   } \solfege_I_VIII
 }
 
+\pageBreak
+
 \score {
   \new Staff \with {
     instrumentName = "1.9"
@@ -1466,6 +1525,8 @@ solfege_XLVIII = \relative c' {
   } \solfege_I_XI
 }
 
+\pageBreak
+
 \score {
   \new Staff \with {
     instrumentName = "1.12"
@@ -1483,6 +1544,8 @@ solfege_XLVIII = \relative c' {
   }
 }
 
+\pageBreak
+
 \score {
   \new StaffGroup {
   <<
@@ -1493,8 +1556,6 @@ solfege_XLVIII = \relative c' {
   >>
   }
 }
-
-\pageBreak
 
 \score {
   \new StaffGroup {
@@ -1541,6 +1602,8 @@ solfege_XLVIII = \relative c' {
   } \solfege_II_IV
 }
 
+\pageBreak
+
 \score {
   \new Staff \with {
     instrumentName = "2.5"
@@ -1564,6 +1627,8 @@ solfege_XLVIII = \relative c' {
     instrumentName = "2.8"
   } \solfege_II_VIII
 }
+
+\pageBreak
 
 \score {
   \new Staff \with {
@@ -1589,6 +1654,8 @@ solfege_XLVIII = \relative c' {
   } \solfege_II_XII
 }
 
+\pageBreak
+
 \score {
   \new Staff \with {
     instrumentName = "2.13"
@@ -1612,6 +1679,8 @@ solfege_XLVIII = \relative c' {
   }
 }
 
+\pageBreak
+
 \score {
   \new StaffGroup {
   <<
@@ -1634,6 +1703,8 @@ solfege_XLVIII = \relative c' {
   }
 }
 
+\pageBreak
+
 \score {
   \new StaffGroup {
   <<
@@ -1645,6 +1716,16 @@ solfege_XLVIII = \relative c' {
   }
 }
 
+\score {
+  \new StaffGroup {
+  <<
+    \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+    \set StaffGroup.instrumentName = "2.19"
+    \new Staff \solfege_II_XIX_up
+    \new Staff \solfege_II_XIX_down
+  >>
+  }
+}
 
 }
 
@@ -1691,6 +1772,8 @@ solfege_XLVIII = \relative c' {
     instrumentName = "3.6"
   } \solfege_III_VI
 }
+
+\pageBreak
 
 \score {
   \new Staff \with {
@@ -1764,8 +1847,23 @@ solfege_XLVIII = \relative c' {
   } \solfege_IV_I
 }
 
+\score {
+  \new Staff \with {
+    instrumentName = "4.2"
+  } \solfege_IV_II
+}
+
+\pageBreak
+
+\score {
+  \new Staff \with {
+    instrumentName = "4.3"
+  } \solfege_IV_III
+}
 
 }
+
+%{
 
 \score {
   \new Staff \with {
@@ -1846,4 +1944,8 @@ solfege_XLVIII = \relative c' {
     instrumentName = "48"
   } \solfege_XLVIII
 }
+
+%}
+
+
 
