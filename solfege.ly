@@ -654,7 +654,10 @@ solfege_III_X_up = \relative c' {
   \time 6/8
   \clef treble
   s2. | s | e16 f g e b'8 a16 b d a a'8 | b8 r a g r c, |
-  d4 c8 a4. | c,8 b a s4. |
+  d4 c8 a4. | c,8 b a s4. | s2. | s |
+  s | c8 e8. d16~ d8 f8. g16 | a4. c16 d8 e8 a16 | b8 a g d16 c8 f, c16~ |
+  c8 b a s4. | s2. | s4. d16 e f g a c | d4 c e |
+  d8 d,4~ d8 a8 r | s2. | s | s4. d4. |
   \bar "|."
 }
 
@@ -663,7 +666,10 @@ solfege_III_X_down = \relative c' {
   \time 6/8
   \clef bass
   d,8 e f e4 f16 g | a4. d | s2. | s |
-  s2. | s4. g,4 e8 |
+  s | s4. g,4 e8 | r4 e,8 f4 a8 | c8 d4 r8 c4 |
+  g'4.~ g8 a8. b16 | s2. | s | s |
+  s4. g8 a8. f16 | g8 a16 b c a g f e d c8 | d16 c d f a c s4. | s2. |
+  s | g4 a,16 a e'4 a,16 a | f16 g f4~ f16 g8. a8 | a'8. b16 c a s4. |
   \bar "|."
 }
 
@@ -671,6 +677,10 @@ solfege_III_XI_up = \relative c' {
   \global
   \time 3/4
   \clef treble
+  \partial 8 e''16 d | e8 b16 c b8 g16 a g8 e | b8 a g16 f e d e4 | s2. | s |
+  s | s4 e4. f16 g | e8 r16 d e8 r16 c e8 r16 b | s2. |
+  s | s | s | s4. d8 e8. e16 |
+  d8. f16 e8 f16 g g8 a16 b |c4 d16 b g f~ f16 e d8 | e8 s8 s2 | s2. |
   \bar "|."
 }
 
@@ -678,6 +688,10 @@ solfege_III_XI_down = \relative c' {
   \global
   \time 3/4
   \clef bass
+  \partial 8 s8 | s2. | s | b16 a g b a g f a g f e g |
+  f8 e4 d8 r4 | b8. d16 f8. a16 b8. c16 | b16 a8 d16 s2 | s2. |
+  a2~ a16 g8 f16~ | f16 e8 d16~ d8 a4. |g16 r8 a16 b16 r8 c16 d4~ | d8 e f4. d16 a' |
+  b4. s8 s4 | s2. | s | s8 e,8~ e16 e8 d16~ d8 e | r2 r8 e,16 e |
   \bar "|."
 }
 
@@ -685,6 +699,14 @@ solfege_III_XII_up = \relative c' {
   \global
   \time 12/8
   \clef treble
+  \partial 8 s8 | s1. | s4. r4. d8 e f d8. e16 f8 |  
+  g a b g8. a16 b8  c4.~ c16 d e c f8 | g16 f e d c b c b a g f e b' a g f e d e d r4 |
+  s1. | s |
+  s4. r8 e4 d8 d'4 r4 c8 | b16 a8 g f16~ f e8 d e16 f4. r4. |
+  g8 d b s4. f'8 d a s4. | b8 b'4 a8. g16 f e f8. e16 d c s4. |
+  s1. | s2. s4. e16 f8. a8 |
+  f'16 g8. a8 b16 a8. g8 f4. r4. | c16 f,~ f4 g16 c,~ c4 s2. |
+  s1. | s4. c16 d8 e f16 a8 a16 b c a b4 r8 |  
   \bar "|."
 }
 
@@ -692,6 +714,14 @@ solfege_III_XII_down = \relative c' {
   \global
   \time 12/8
   \clef bass
+  \partial 8 f,,8 | b8 a b16 f g4 f8 e8 g d e8. f16 g8 | g' a b s4. s2. |
+  s1. | s2. s4. s8 c16 b a8 |
+  g8 d g g, d g a4 b8 c4 d8 | e8 g16 b d8~ d16 c b a g8 d8 f16 a c8~ c16 b a g f8 |
+  a4 b16 c s4. s2. | s1. |
+  s4. g8 d16 e f g s4. f8 d16 e f a | s2. s4. b8. f16 a8 |
+  b8 f4~ f8 e d a'8 e4~ e8 d c~ | c16 b c e f8 e16 d e g b8 a8 b c16 d s4. |
+  s1. | s2. b16 c~ c4 a16 c~ c4 |
+  b16 f d b d f a f d b d f g e b e f8~ f g a~ | a8 b4 s4. s2. |  
   \bar "|."
 }
 
