@@ -10,7 +10,6 @@
 }
 
 global = {
-  \key c \major
   \numericTimeSignature
   \override Staff.InstrumentName.self-alignment-X = #CENTER
   \override Staff.InstrumentName.font-size = 6
@@ -43,25 +42,7 @@ global_chapter_zero = {
 % - 3:2 8
 % - 2:3 4.
 
-% V: cut time and other time signatures
-% - time signatures: 2/2 3/2 4/2 6/4 9/4
 
-% VI: thirty-seconds and multiple dots
-
-% VII: other irregular rhythms
-% - 6:4 4
-% - 5:4 4
-% - 7:4 4
-% - 4:3 4.
-% - ...
-
-% VIII: Irregular and odd time signatures
-% - 5/8
-% - 7/8
-% - 15/16
-% - ...
-
-% IX: All together
 
 %%%%%%%%%%%
 % Chapter 0
@@ -1182,20 +1163,16 @@ solfege_XLVIII = \relative c' {
   \bar "|."
 }
 
-% trentaduesimi
-% doppio punto
-% terzine di quarti in tempo binario
-% terzine di sedicesimi in tempo binario
-% terzine di ottavi in tempo tagliato
-% sestine in tempo semplice
-% quartine in tempo composto
-% cinquine e settimine in tempo semplice
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
 \bookpart {
 
 \header {
   title = "Chapter 0"
-  subsubtitle =  "Learning the notes: treble clef and bass clef"
+  subtitle =  "Learning the notes: treble clef and bass clef"
 }
 
 
@@ -1452,7 +1429,7 @@ solfege_XLVIII = \relative c' {
 
 \header {
   title = "Chapter I"
-  subsubtitle =  "1,2,3,4 quarter values, rests and ties"
+  subtitle =  "1,2,3,4 quarter values, rests and ties"
 }
 
 \score {
@@ -1575,7 +1552,7 @@ solfege_XLVIII = \relative c' {
 
 \header {
   title = "Chapter II"
-  subsubtitle = "Eights, the dot and compound time signatures"
+  subtitle = "Eights, the dot and compound time signatures"
 }
 
 \score {
@@ -1734,7 +1711,7 @@ solfege_XLVIII = \relative c' {
 
 \header {
   title = "Chapter III"
-  subsubtitle = "Sixteenths"
+  subtitle = "Sixteenths"
 }
 
 \score {
@@ -1838,7 +1815,7 @@ solfege_XLVIII = \relative c' {
 
 \header {
   title = "Chapter IV"
-  subsubtitle = "Irregular rhythms: triplets and duplets"
+  subtitle = "Irregular rhythms: triplets, sextuplets and duplets"
 }
 
 \score {
@@ -1947,5 +1924,94 @@ solfege_XLVIII = \relative c' {
 
 %}
 
+% V: cut time and other time signatures
+% - time signatures: 2/2 3/2 4/2 6/4 9/4
 
+% VI: thirty-seconds and multiple dots
 
+% VII: other irregular rhythms
+% - 6:4 4
+% - 5:4 4
+% - 7:4 4
+% - 4:3 4.
+% - ...
+
+% VIII: Irregular and odd time signatures
+% - 5/8
+% - 7/8
+% - 15/16
+% - ...
+
+% IX: All together
+
+\bookpart {
+  \header {
+    title = "Chapter V"
+    subtitle = "Cut time and other time signatures"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter VI"
+    subtitle = "Thirtyseconds and multiple dots"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter VII"
+    subtitle = "Other irregular rhythms"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter VIII"
+    subtitle = "Irregular and odd time signatures"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter IX"
+    subtitle = "Tests"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter X"
+    subtitle = "To sing: easy, with no alterations"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter XI"
+    subtitle = "To sing: intermediate, with few alterations and modulations to closely related keys"
+  }
+  
+  \score {\new Staff {}}
+}
+
+\bookpart {
+  \header {
+    title = "Chapter XII"
+    subtitle = "To sing: hard, with alterations and modulations to distantly related keys"
+  }
+  
+  \score {\new Staff {}}
+}
