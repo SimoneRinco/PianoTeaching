@@ -1164,6 +1164,84 @@ solfege_XLVIII = \relative c' {
 }
 
 
+solfege_X_I = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Allegretto"
+  c2\mf( d4 e | d2) r | e2( f4 g | f2) r | g2( e4 f | g4 f e d | c2.) r4 |
+  r4 e( c d) | r f( d e) | r g( e f | g e c2) |
+  b4( c d2) | c4( b c e | d2.) r4 | g( e c d | c1) |
+  \bar "|."
+}
+
+solfege_X_II = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Vivace"
+  c2(\mf d | e f | g a | b c | b a | g f | e d | c2.) r4 |
+  c4( d e2) | d4( e f2) | g4( f e d | c2) r | e4( f g2) | f4( g a2) | g4( a b2 | a2) r |
+  c4( b a g)( | a g f e)( | f e d c | d2) r | c4( d e f | e f g a | g a b g | c1) |
+  \bar "|."
+}
+
+solfege_X_III = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \key c \major
+  \tempo "Moderato"
+  e4( f g | f2 d4 | e2 d4 | c2.) | d4( e c | d2) r4 | e4( f d | e2) r4 |
+  f4( g e | f g a | b2 b4 | c2 c,4 | e g e | c e g~ | g e g | c2) r4 |
+  \bar "|."
+}
+
+solfege_X_IV = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Allegro"
+  \partial 4 g'4-. | c2( b4 a | g2) r4 g-. | a2( g4 f | e2) r4 e-. | f2( e4 d | c2) r4 d( | e d c b | c2.) r4 |
+  d4( g e g | f g e g) | c,( g' f2) | c4( f e2) | c4( e d2) | c4( b c e | d2 g4 b | c2) r4 c,4 |
+  \bar "|."
+}
+
+solfege_X_V = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Solenne"
+  g'2( c,4 c | g'2) r | a2( d,4 d | a'2) r | g4( a b g | a b c a | b c d b | c2.) r4 |
+  c2( f,4 f | c'2) r | b2( e,4 e | b'2) r | a2( d,4 d | a' g f e | d f g b | c2) r |
+  \bar "|."  
+}
+
+solfege_X_VI = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \key c \major
+  \tempo "Mesto"
+  a'2( g4 | a e2) | f2( e4 | f4 c2) | d2( f4 | e2 e4 | f2 g4 | a2.) |
+  b4( a g | a e f | g2) r4 | a4( g f | g d e | f2) r4 | e4( a e | d a' d, | e f g | a2) r4 |
+  \bar "|."
+}
+
+solfege_X_VII = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Grave"
+  c'4( c g a | g2. b4) | d( d a b | a2. b4) | c( e, c'2 | b4 d, b'2 | a4 c, a'2 | g4 b, g'2) |
+  f2( g4 a | f2 e4 f) | e2( f4 g | e2 d4 e) | d2( e4 d | g4 f e d | e2. b4 | c1) |
+  \bar "|."
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
@@ -1995,7 +2073,47 @@ solfege_XLVIII = \relative c' {
     subtitle = "To sing: easy, with no alterations"
   }
   
-  \score {\new Staff {}}
+  \score {
+    \new Staff \with {
+      instrumentName = "10.1"
+    } \solfege_X_I
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.2"
+    } \solfege_X_II
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.3"
+    } \solfege_X_III
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.4"
+    } \solfege_X_IV
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.5"
+    } \solfege_X_V
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.6"
+    } \solfege_X_VI
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.7"
+    } \solfege_X_VII
+  }
 }
 
 \bookpart {
@@ -2010,7 +2128,7 @@ solfege_XLVIII = \relative c' {
 \bookpart {
   \header {
     title = "Chapter XII"
-    subtitle = "To sing: hard, with alterations and modulations to distantly related keys"
+    subtitle = "To sing: hard, with many alterations and modulations to distantly related keys"
   }
   
   \score {\new Staff {}}
