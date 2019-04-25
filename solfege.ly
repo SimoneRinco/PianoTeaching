@@ -1243,6 +1243,123 @@ solfege_X_VII = \relative c' {
   \bar "|."
 }
 
+solfege_X_VIII = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \key c \major
+  \tempo "Brioso"
+  \partial 4 e4( | f c f | g2.) | a4( e a | g2.) | a4( g a | b2 d4 | c2 b4 | a2) r4 |
+  c4( a c | b g b | a f a | g2.) | a4( f d | e d f | g b d | c2.) |
+  \bar "|."
+}
+
+solfege_X_IX = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Andante"
+  f4( e d2 | a'4 g f2 | b4 a g2 | c4 b a2) | r4 e( c' b) | r d,( b' a) | r c,( a' g) | r b,( g' f) |
+  e2( f4 g | c,2. b4) | d2( e4 f | a,2. g4) | a( b c) r | b( c d) r | f( e f g | a g a b | c2 c,4 c) |
+  \bar "|."
+}
+
+solfege_X_X = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Allegro"
+  c'4( b a g | f e d c | d2. f4 | e2 g) | b4( a g f | e d c b | c2. e4 | d2 f) |
+  a4( g f e | f e d c) | g'( f e d | e d c b) | f'( e d e | f2 a | b4 a g b | c2) g4( c-.) |
+  \bar "|."
+}
+
+solfege_X_XI = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \key c \major
+  \tempo "Moderato"
+  d4( d e | c2 e4 | g2 f4 | e2.) | f4( f g | e2 g4 | c2 b4 | a2.) |
+  d4( c b | c b a | b a g | a g f | g f e | f e d | g2 b4 | c2.) |
+  \bar "|."
+}
+
+solfege_X_XII = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Vivace"
+  c4( c c d | c2 g | c d | e f) | d4( d d e | d2 a | d e | f g) |
+  e4( f g e | d2 f4 a | g a b g | c2. b4 | a)( b c g | f g a2 | b4 a g b | a2.) r4 |
+  \bar "|."
+}
+
+solfege_X_XIII = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Meastoso"
+  \partial 4 a'4( |d2 b4 c | d2. d,4 | e4 f e2 | a2) r4 a( | g2 a | e2.) e'4( | d2.) d,4( | g f' e d |
+  c d e a, | d2) r | b4( c d g, | c2) r | c,4( e g c~ | c2 g4 e | f a c f~ | f2  c4 a |
+  g b d d | d2 b4 g | c g e f | d d g b | c2) r |
+  \bar "|."
+}
+
+solfege_X_XIV = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \key c \major
+  \tempo "Andantino"
+  g'2( b4 | d2 f4 | e4 c g | a2.) | f2( a4 | c2 f4 | e c d | e2.) |
+  g,4( e' d | f, d' c | e, c' b | a2.) | b4( b c | d2 d,4 | g g a | b2.) |
+  c4( a f | d c' b) | d( b g | e d' c) | e( c a | f d f | g2 b4 | c2.) |
+  \bar "|."
+}
+
+solfege_X_XV = \relative c' {
+  \global
+  \time 4/4
+  \clef treble
+  \key c \major
+  \tempo "Moderato assai"
+  b'4( a2) r4 | g4( a2) r4 | f2.( g4 | a2) r | d4( c2) r4 | b4( c2) r4 | g2.( b4 | a2) r |
+  a4( e c a) | a'( f d a) | b( d f2) | c4( e g2) | d4( f a f | g2. f'4 | e2 d | e1) |
+  \bar "|."
+}
+
+solfege_X_XVI = \relative c' {
+  \global
+  \time 3/4
+  \clef treble
+  \key g \major
+  \tempo "Brillante"
+  \partial 4 d4-. | g( g fis | g2 b4 | a a b | c2 e4 | d e fis | g2 b,4 | c d fis | g2.) |
+  fis4( e8 fis e d | e4 d8 e d c | b a g fis c'4 | a8 g fis e d4) | g( g a | b b8 a g fis | e4 e fis | d d8 e fis d |
+  g4)( d b' | g d b' | a e c' | a e c' | b g d'~ | d c8 a fis d | e4. fis8 a4 | g2) r4 |
+  fis4.( g8 a4 | d fis, c') | e,4.( fis8 g4 | c e, b') | d,4.( e8 fis4 | c'4 b4. a8 | g4 d8 g b g | a4. g8 g4) |
+  \bar "|."
+}
+
+solfege_X_XVII = \relative c' {
+  \global
+  \time 6/8
+  \clef treble
+  \key f \major
+  \tempo "Pastorale"
+  \partial 8 a'16( bes | c8 bes a d c bes | c4.) r4 g16( a | bes8 a g a c, e | f4.) r4 c8( |
+  d8 f bes d, f bes | c, f bes c, f a | c, f g c, e g | f4.) r4 e8( |
+  f8. a16 c8 d4 c8 | bes8. f16 bes8 c4 bes8 | a8. e16 bes'8 a4 g8 | a4.) r4 a16( bes |
+  c8 bes a d c bes | c4.) r4 g16( a | bes8 a g a g f | e4.) r4 f8( |
+  d4 f8 a4 f8 | d4 c8 bes4. | a'8 g f e4 f8 | d2.) | e8( e f g4 bes8 | a8 c, e f4 e8 | f8 d bes c4 a'8 | f2.) |
+  \bar "|."
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
@@ -2114,6 +2231,67 @@ solfege_X_VII = \relative c' {
       instrumentName = "10.7"
     } \solfege_X_VII
   }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.8"
+    } \solfege_X_VIII
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.9"
+    } \solfege_X_IX
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.10"
+    } \solfege_X_X
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.11"
+    } \solfege_X_XI
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.12"
+    } \solfege_X_XII
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.13"
+    } \solfege_X_XIII
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.14"
+    } \solfege_X_IV
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.15"
+    } \solfege_X_XV
+  }
+
+  \score {
+    \new Staff \with {
+      instrumentName = "10.16"
+    } \solfege_X_XVI
+  }
+  
+  \score {
+    \new Staff \with {
+      instrumentName = "10.17"
+    } \solfege_X_XVII
+  }  
+
 }
 
 \bookpart {
